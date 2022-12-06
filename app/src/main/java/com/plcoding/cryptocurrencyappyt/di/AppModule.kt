@@ -1,5 +1,8 @@
 package com.plcoding.cryptocurrencyappyt.di
 
+// TODO 11: In the di package, create an object called AppModule. Provide a singleton for
+//  each api and each repository.
+
 import com.plcoding.cryptocurrencyappyt.common.Constants
 import com.plcoding.cryptocurrencyappyt.data.remote.CoinPaprikaApi
 import com.plcoding.cryptocurrencyappyt.data.repository.CoinRepositoryImpl

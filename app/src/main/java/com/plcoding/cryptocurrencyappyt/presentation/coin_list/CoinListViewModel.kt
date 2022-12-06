@@ -1,5 +1,7 @@
 package com.plcoding.cryptocurrencyappyt.presentation.coin_list
 
+// TODO 14: Inside of each screen package, create a view model class.
+
 import androidx.compose.runtime.State
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel

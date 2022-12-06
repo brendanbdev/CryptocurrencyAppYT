@@ -1,5 +1,11 @@
 package com.plcoding.cryptocurrencyappyt.domain.use_case.get_coins
 
+// TODO 10: In domain.use_case, in each use case package, make a class
+//  that injects your repository's interface as a dependency. Use the
+//  invoke function with a return type Flow<Resource<(whatever you want)>>>
+//  Flow, because you are emitting multiple values over time... And Resource,
+//  from the Resource class. Use this code as a model.
+
 import com.plcoding.cryptocurrencyappyt.common.Resource
 import com.plcoding.cryptocurrencyappyt.data.remote.dto.toCoin
 import com.plcoding.cryptocurrencyappyt.data.repository.CoinRepositoryImpl

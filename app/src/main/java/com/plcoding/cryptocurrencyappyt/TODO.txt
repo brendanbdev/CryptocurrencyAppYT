@@ -1,1 +1,23 @@
-TODO 1:
+TODO 1-1: In the root package, make a package (module for team projects)
+ for each of the 3 layers, which are: presentation, domain, and data.
+
+TODO 1-2: Also in the root package, make a common package.
+
+TODO 1-3: Put your ui package and MainActivity class into the
+ presentation package.
+
+TODO 1-4: In the presentation package, make a package for each screen.
+
+TODO 1-5: For each screen package, make a components package which will
+ contain composables.
+
+TODO 1-6: In the domain package, create a model package,
+ a repository package, and a use_case package. In the use_case package,
+ make a package for every use case.
+
+TODO 1-7: In the data package, make a repository package.
+
+TODO 1-8: In the data package, make a remote package. In the remote
+ package, make a dto (Data Transfer Object) package.
+
+TODO 1-9: In the root package, make a di (Dependency Injection) package.
